@@ -1,0 +1,137 @@
+.main{
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+    width:98vw;
+}
+.firstcoln{
+    display: flex;
+    flex-direction: column;
+}
+.mainhead{
+    width:75vw;
+    height:15vh;
+    background-color:#0000ff;
+}
+.mainbody{
+    width:75vw;
+    height:85vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+
+}
+.secondcoln{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1vw;
+}
+.leftupper{
+    height:65vh;
+    width:21vw;
+    background-color:red;
+}
+.lowerleft{
+    margin-top: 5px;
+    width:21vw;
+    height:30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sbcard-one{
+border: solid 2px white;
+border-top-color: black;
+}
+
+.sbcard-two{
+    /* background-color: green; */
+    border:solid 2px white;
+    border-top-color: black;
+
+}
+
+.firstbody > img{
+    height:50vh;
+    width:35vw;
+}
+
+.secondbody > img {
+    height: 25vh;
+    width:35vw;
+}
+
+.firstbody{
+    width:50%;
+}
+.secondbody{
+    width:50%;
+}
+.lowerleft>img{
+    height: 24vh;
+}
+.sbflexone{
+    display: flex;
+    flex-direction: row;
+}
+.sbflextwo{
+    display:flex;
+    flex-direction:row;
+}
+.sboneimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:6%
+}
+.sboneimg > img{
+    padding-top: 1px;
+    height: 38px;
+} 
+
+.sbtwoimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 9%;
+}
+
+.sbtwoimg>img{
+    padding-top: 1px;
+    height: 38px;
+}
+
+@media all and (max-width:480px){
+    .mainbody{
+        flex-direction: column;
+    }
+    
+    .main{
+        flex-direction: column;
+    }
+    .secondcoln{
+        padding-top: 575px;
+    }
+    .mainhead{
+        width:100%
+    }
+    .firstbody{
+        width: 100%;
+    }
+    .secondbody{
+        width:100%;
+    }
+    .leftupper{
+        width: 100%;
+    }
+    .lowerleft{
+        width:100%;
+    }
+    .secondbody > img {
+        width:100%;
+    }
+    .firstbody > img {
+        width:100%
+    }
+}
