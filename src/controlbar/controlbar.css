@@ -1,0 +1,13 @@
+.controlbar{
+    width:82vw;
+    align-items: center;
+    padding:1% 0;
+    margin: 3% 0;;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.controlbar>h5{
+    font-weight: 1000;
+}

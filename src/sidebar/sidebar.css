@@ -1,0 +1,18 @@
+.sidebar{
+    width: 18vw;
+}
+
+.namecard{
+    width: 18vw;
+    padding:10% 3%;
+    border-bottom-style:2px solid red ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.namecard > img{
+    width:9vw;
+    border-radius: 50%;
+}
+
